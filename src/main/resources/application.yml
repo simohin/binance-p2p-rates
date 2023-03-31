@@ -1,0 +1,9 @@
+tg.bot:
+  rate:
+    send:
+      express:
+        millis: 10000
+      market:
+        millis: 30000
+  token: ${TG_BOT_TOKEN:}
+binance.url: https://p2p.binance.com
