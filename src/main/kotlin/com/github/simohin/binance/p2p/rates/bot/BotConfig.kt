@@ -48,11 +48,9 @@ class BotConfig(
 
     private fun onStart(msg: CommonMessage<TextContent>) {
         msg.chat.id.let(chats::add)
-        TODO("Not yet implemented")
     }
 
     private fun onStop(msg: CommonMessage<TextContent>) {
         msg.chat.id.let(chats::remove)
-        TODO("Not yet implemented")
     }
 }
